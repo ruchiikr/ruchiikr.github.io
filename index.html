@@ -109,7 +109,7 @@
           <h3>Work Experience</h3>
           <div class="card">
             <h4>Summer Internship</h4>
-            <p><strong>NIT Jamshedpur | May 2024 - June 2024</strong></p>
+            <h5><strong>NIT Jamshedpur | May 2024 - June 2024</strong></h5>
             <ul>
               <li>
                 Project Title: Understanding and Implementing RSA Cryptographic
@@ -126,7 +126,7 @@
           </div>
           <div class="card">
             <h4>Full-Stack Development Intern</h4>
-            <p><strong>Unileaf | Dec 2024 - Present</strong></p>
+            <h5><strong>Unileaf | Dec 2024 - Present</strong></h5>
             <ul>
               <li>
                 Working with HTML, CSS, JavaScript, and backend frameworks.
@@ -207,29 +207,46 @@
 
       <section class="hire">
         <h2>Let's work together.</h2>
-        <p>Creating user experience and visually appealing design.</p>
+        <p>
+          Creating user experience
+          <br />
+          and visually appealing design.
+        </p>
         <div class="buttons">
           <button class="btn">Hire Me</button>
+          <button class="btn" onclick="copyEmail()">Copy Email</button>
         </div>
       </section>
+      <script>
+        function copyEmail() {
+          const email = "ruchikumari5286@gmail.com";
+          navigator.clipboard.writeText(email).then(() => {
+            alert("Email copied to clipboard!");
+          });
+        }
+      </script>
 
       <footer>
-        <h3>Follow Me</h3>
-        <div class="social-icons">
-          <a href="https://twitter.com" target="_blank"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          <a href="https://instagram.com" target="_blank"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a href="https://dribbble.com" target="_blank"
-            ><i class="fab fa-dribbble"></i
-          ></a>
-          <a href="" target="https://www.linkedin.com/in/ruchi-kumari-182503270"
-            ><i class="https://www.linkedin.com/in/ruchi-kumari-182503270"></i
-          ></a>
+        <div class="footer-container">
+          <h3>Follow Me</h3>
+          <div class="social-icons">
+            <a href="https://twitter.com" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://instagram.com" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://dribbble.com" target="_blank"
+              ><i class="fab fa-dribbble"></i
+            ></a>
+            <a
+              href=""
+              target="https://www.linkedin.com/in/ruchi-kumari-182503270"
+              ><i class="https://www.linkedin.com/in/ruchi-kumari-182503270"></i
+            ></a>
+          </div>
+          <p>&copy; 2025 Subtle Folio - Ruchi Portfolio</p>
         </div>
-        <p>&copy; 2025 Subtle Folio - Ruchi Portfolio</p>
       </footer>
     </div>
   </body>

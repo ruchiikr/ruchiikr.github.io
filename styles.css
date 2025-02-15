@@ -1,16 +1,12 @@
 body {
     background-color: #121212;
-    color: #ffffff;
+    color: white;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.intro {
-    color: #e7e7e6; 
 }
 
 section {
@@ -35,17 +31,13 @@ html {
     margin-top: 50px;
 }
 
-.status {
-    color: #4caf50;
-    font-weight: bold;
-}
 
 .buttons {
     margin-top: 10px;
 }
 
 .btn {
-    background-color: #1ee581;
+    background-color: #7f7e7e;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -93,7 +85,7 @@ html {
 
 
 .btn:hover {
-    background: #00c4fa;
+    background: #a2c6ed;
 }
 
 /* .nav-menu {
@@ -167,7 +159,7 @@ html {
     transition: 0.3s;
   }
   .nav-item:hover {
-    color: #00c4fa;
+    color: #bee8f3;
   }
   #mode-toggle {
     background: none;
@@ -189,7 +181,7 @@ html {
 .blog .btn {
     display: inline-block;
     margin-top: 10px;
-    background-color: #007bff;
+    background-color: #7f7e7e;
     padding: 10px 15px;
     text-decoration: none;
     color: white;
@@ -198,5 +190,35 @@ html {
 }
 
 .blog .btn:hover {
-    background-color: #0056b3;
+    background-color: #a2c6ed;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+.footer-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.hire{
+    text-align: center;
+}
+
+h1 {
+    color: lightgray; 
+}
+
+p {
+    color: lightgray; 
+}
+
+ul {
+    color: lightgray; 
+}
+
+h5 {
+    color: darkgrey;
+    font-size: medium;
 }
