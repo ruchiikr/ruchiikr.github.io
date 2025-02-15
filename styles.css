@@ -219,6 +219,7 @@ ul {
 }
 
 h5 {
-    color: darkgrey;
+    color: rgb(236, 236, 236);
     font-size: medium;
+    font: bold;
 }
