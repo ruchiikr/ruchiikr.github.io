@@ -81,6 +81,7 @@ html {
     margin: 10px 0;
     border-radius: 10px;
     text-align: center;
+    text-decoration: none;
 }
 
 
@@ -222,4 +223,23 @@ h5 {
     color: rgb(236, 236, 236);
     font-size: medium;
     font: bold;
+}
+
+.copy {
+    font-size: x-small;
+    margin-top: 20px;
+}
+
+.footer-container .social-icons a {
+    color: #545458;
+    text-align: center;
+}
+
+.footer-container .social-icons a:hover {
+    color: #1277b2 ; 
+}
+
+.contact .card-1 a {
+    text-decoration: none !important;
+    display: inline-block;
 }
