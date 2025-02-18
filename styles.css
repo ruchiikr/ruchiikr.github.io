@@ -209,10 +209,12 @@ html {
 
 h1 {
     color: lightgray; 
+    font-size: 24px;
 }
 
 p {
     color: lightgray; 
+    font-size: 18px;
 }
 
 ul {
